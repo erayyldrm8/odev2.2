@@ -17,8 +17,21 @@ public class Main {
 		sayi2 = sayi1;
 		sayi1 = 30;
 		System.out.println(sayi2);
-
+		
+		System.out.println("---");
+		
 		int[] sayilar = new int[] { 1, 2, 3 };
+		int[] sayilar2 = new int[] { 4, 5, 6 };
+		sayilar2=sayilar;
+		sayilar[0]=10;
+		for(int a:sayilar) {
+			System.out.println(a);
+		}
+		System.out.println("---");
+		for(int b:sayilar2) {
+			System.out.println(b);
+		}
+		
 	}
 
 }
