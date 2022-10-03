@@ -8,7 +8,7 @@ public class Product {
 	private int _stockAmount;
 	private String _renk;
 	private String _kod;
-	String _sicilNo;
+	
 	
 	public int get_id() // read only için sadece get kullanılır
 	{
