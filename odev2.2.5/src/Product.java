@@ -1,5 +1,23 @@
 
 public class Product {
+	
+	public Product()////constructor classla aynı isimde , 9.satır ile overloading yapılabilir
+	{
+		System.out.println("yapıcı blok çalıştı");
+	}
+	
+	public Product(int _id,String _name,String _description,double _price,int _stockAmount,String _renk)//overloading
+	{
+		System.out.println("yapıcı blok çalıştı");
+		this._id=_id;
+		this._name=_name;
+		this._description=_description;
+		this._price=_price;
+		this._stockAmount=_stockAmount;
+		this._renk=_renk;
+	}
+	
+	
 	// class field/attribute
 	private int _id;// private sadece içinde olduğu{} da çağırılabilir
 	private String _name;
@@ -16,7 +34,7 @@ public class Product {
 	}
 
 	public void set_id(int _id) {
-		this._id = _id;
+		this._id = _id;	//this. bu classtaki demek
 	}
 
 	public String get_name() {
