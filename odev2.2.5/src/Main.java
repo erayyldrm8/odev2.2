@@ -14,7 +14,7 @@ public class Main {
 		product1.stockAmount = 50;
 		System.out.println(product1.name);*/
 		
-		/*product1.set_name("Laptop");			//ister böyle ister 9. satırdaki gibi yap
+		/*product1.set_name("Laptop");			//ister böyle ister 9. satırdaki gibi constructor ile yap
 		product1.set_id(1);
 		product1.set_description("Asus Laptop");
 		product1.set_price(5999.90);

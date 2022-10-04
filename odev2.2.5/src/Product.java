@@ -9,7 +9,7 @@ public class Product {
 	public Product(int _id,String _name,String _description,double _price,int _stockAmount,String _renk)//overloading
 	{
 		System.out.println("yapıcı blok çalıştı");
-		this._id=_id;
+		this._id=_id;		//sadece set yapıyo, getters oluşturmak lazım
 		this._name=_name;
 		this._description=_description;
 		this._price=_price;
