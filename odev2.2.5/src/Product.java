@@ -1,7 +1,7 @@
 
 public class Product {
 	
-	public Product()////constructor classla aynı isimde , 9.satır ile overloading yapılabilir
+	public Product()//constructor classla aynı isimde , 9.satır ile overloading yapılabilir
 	{
 		System.out.println("yapıcı blok çalıştı");
 	}
@@ -33,9 +33,9 @@ public class Product {
 		return _id;
 	}
 
-	public void set_id(int _id) {
+	/*public void set_id(int _id) {				//set kısmı constructor fonksyonunda yapıldı
 		this._id = _id;	//this. bu classtaki demek
-	}
+	}*/
 
 	public String get_name() {
 		return _name;
